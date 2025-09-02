@@ -1,5 +1,19 @@
 # Chemmantatta Story - GitHub Pages Publishing Guide
 
+## ⚠️ IMPORTANT INSTRUCTIONS FOR WEBSITE DEPLOYMENT
+
+**Please follow these guidelines when uploading your website:**
+
+1. **❌ Do NOT upload ZIP files** - Never upload compressed files like html5.zip, website.zip, or any other ZIP archives to this repository
+
+2. **✅ Upload website files directly** - Always upload individual website files (index.html, css files, js files, images, etc.) directly to the repository without compression
+
+3. **🔧 Enable GitHub Pages** - Go to Settings > Pages to enable GitHub Pages deployment for your website
+
+4. **🌐 Access your deployed site** - Once GitHub Pages is enabled, your website will be available via the GitHub Pages link: https://radhikasuresh12.github.io/chemmantatta-story/
+
+---
+
 ## Repository Analysis Summary
 
 ### Issues Found:
@@ -30,9 +44,9 @@ https://radhikasuresh12.github.io/chemmantatta-story/story.html
 
 ### Step 3: Create an Index File (Recommended)
 To make the site accessible without specifying the filename:
-
 1. Create a new file called `index.html` in the root directory
 2. Add this content to redirect to the main story:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -53,7 +67,6 @@ To make the site accessible without specifying the filename:
 3. Visit your site URL to test functionality
 
 ## File Structure Overview
-
 - `story.html` - Main Storyline 360 course file
 - `html5/` - Course assets and libraries
 - `story_content/` - Course content files
@@ -63,20 +76,17 @@ To make the site accessible without specifying the filename:
 - `html5.zip` - Compressed version (can be removed after extraction)
 
 ## Recommendations
-
-1. **Remove ZIP File**: Consider deleting `html5.zip` as the files are already extracted
-2. **Add Index File**: Create `index.html` for easier access (see Step 3 above)
+1. **Remove ZIP File**: Consider deleting html5.zip as the files are already extracted
+2. **Add Index File**: Create index.html for easier access (see Step 3 above)
 3. **Custom Domain**: Optionally configure a custom domain in Pages settings
-4. **HTTPS**: GitHub Pages automatically provides HTTPS for `.github.io` domains
+4. **HTTPS**: GitHub Pages automatically provides HTTPS for .github.io domains
 
 ## Troubleshooting
-
 - **404 Error**: Ensure GitHub Pages is enabled and files are in the main branch
 - **Course Not Loading**: Check browser console for errors; some features may require HTTPS
 - **Mobile Issues**: The course includes mobile-specific assets for responsive design
 
 ## Course Information
-
 - **Title**: Chemmantatta
 - **Platform**: Articulate Storyline 360
 - **Version**: 3.103.35242.0
@@ -85,5 +95,4 @@ To make the site accessible without specifying the filename:
 For support with Storyline 360 courses, visit [Articulate Support](https://articulate.com/support/).
 
 ---
-
 *This README was generated to help with GitHub Pages deployment and repository optimization.*
